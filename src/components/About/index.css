@@ -1,0 +1,96 @@
+.main-container {
+  padding: 10px 100px;
+  background-color: #E7EBF4;
+
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 512px;
+  height: 420px;
+}
+
+.add-projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.input-container input {
+  border: 1px solid #fff;
+  padding: 5px;
+  height: 25px;
+  outline: none;
+  width: 350px;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+
+.input-container textarea {
+  width: 350px;
+  border: 1px solid #fff;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 3px;
+
+}
+
+.form-button {
+  text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+  .main-container {
+    padding: 10px;
+  }
+
+  .about-container h3 {
+    font-size: 16px;
+  }
+
+  .about-container h1 {
+    font-size: 20px;
+  }
+
+  .profile-pic {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+  }
+
+  .about-section {
+    justify-content: space-between;
+  }
+
+  .add-projects-container {
+    margin-top: 5px;
+    justify-content: flex-start;
+  }
+
+  .input-container {
+    width: 100%;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .input-container input {
+    width: 96%;
+  }
+
+  .input-container textarea {
+    width: 96%;
+  }
+}

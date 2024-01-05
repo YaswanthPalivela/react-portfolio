@@ -1,0 +1,40 @@
+.navbar-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+}
+
+.website-logo {
+  font-family: "Comfortaa";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.nav-items-container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-items-container {
+    display: none;
+  }
+
+  .navbar-container {
+    padding: 5px 10px;
+  }
+}

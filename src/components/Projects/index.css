@@ -1,0 +1,11 @@
+.projects-section {
+  padding: 10px 100px;
+  background-color: #E7EBF4;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+  .projects-section {
+    padding: 10px;
+  }
+}
